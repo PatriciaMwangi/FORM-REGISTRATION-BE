@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+
+# Flask instance folder
+instance/
+
+# Environment variables file
+.env
+*.env
+
+# Database files
+*.sqlite3
+*.db
+
+# MacOS files
+.DS_Store
+
+# PyCharm and other IDE files
+.idea/
+*.swp
+
+# VSCode settings
+.vscode/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
