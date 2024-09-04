@@ -24,7 +24,7 @@ app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 migrate = Migrate(app, db)
 api = Api(app)
-CORS(app, resources={r"/*": {"origins": "http://localhost:3000"}})
+CORS(app)
 db.init_app(app)
 
 def allowed_extensions(filename):
