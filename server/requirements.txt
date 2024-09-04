@@ -20,3 +20,5 @@ SQLAlchemy==2.0.29
 sqlalchemy-serializer==1.4.22
 typing_extensions==4.12.2
 Werkzeug==3.0.4
+gunicorn
+
